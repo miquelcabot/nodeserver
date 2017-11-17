@@ -9,15 +9,15 @@ To install Express:
 $ npm install express --save
 ```
 ## Execution
-Execute with
+Execute in Windows with
 ```
 $ server.bat
 ```
-or
+or execute in Linux / Mac OS X with
 ```
 $ server.sh
 ```
-or
+or execute with
 ```
 node server.js
 ```
