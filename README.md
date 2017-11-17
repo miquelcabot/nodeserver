@@ -19,5 +19,5 @@ $ server.sh
 ```
 or execute with
 ```
-node server.js
+$ node server.js
 ```
