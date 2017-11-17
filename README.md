@@ -11,13 +11,13 @@ $ npm install express --save
 ## Execution
 Execute in Windows with
 ```
-$ server.bat
+$ nodeserver.bat
 ```
 or execute in Linux / Mac OS X with
 ```
-$ server.sh
+$ nodeserver.sh
 ```
 or execute with
 ```
-$ node server.js
+$ node nodeserver.js
 ```
