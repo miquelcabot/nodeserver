@@ -15,5 +15,9 @@ $ server.bat
 ```
 or
 ```
+$ server.sh
+```
+or
+```
 node server.js
 ```
