@@ -26,7 +26,9 @@ app.get('/', function (req, res) {
     // We add to html web page every subdir in HTDOC_FOLDER
     var dirnames = dirs(path.join(__dirname, HTDOCS_FOLDER));
     for (var i = 0; i < dirnames.length; i++) {
-        htmltext += '<a href="http://localhost:'+PORT+'/'+dirnames[i]+'" class="list-group-item">'+dirnames[i]+'</a>';
+        if ((dirnames[i]!='node_modules') && (dirnames[i].substring(0,1)!='.')) {
+            htmltext += '<a href="http://localhost:'+PORT+'/'+dirnames[i]+'" class="list-group-item">'+dirnames[i]+'</a>';
+        }
     }
     // End of html file
     htmltext += '</div></div></body></html>';
