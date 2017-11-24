@@ -4,6 +4,7 @@
   "description": "Web server that uses Node.js and Express to show all of the subfolders in the current directory",
   "main": "nodeserver.js",
   "scripts": {
+    "start": "node nodeserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
