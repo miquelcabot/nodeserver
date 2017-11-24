@@ -33,7 +33,9 @@ app.get('/', function (req, res) {
     // End of html file
     htmltext += '</div></div></body></html>';
 
-    res.send(htmltext);
+    res
+        .status(200)
+        .send(htmltext);
 })
 
 // We use the HTDOC_FOLDER as the main folder of the server
