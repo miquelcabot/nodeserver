@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
     var dirnames = dirs(path.join(__dirname, HTDOCS_FOLDER));
     for (var i = 0; i < dirnames.length; i++) {
         if ((dirnames[i]!='node_modules') && (dirnames[i].substring(0,1)!='.')) {
-            htmltext += '<a href="http://localhost:'+PORT+'/'+dirnames[i]+'" class="list-group-item">'+dirnames[i]+'</a>';
+            htmltext += '<a href="'+dirnames[i]+'" class="list-group-item">'+dirnames[i]+'</a>';
         }
     }
     // End of html file
