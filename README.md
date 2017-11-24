@@ -2,11 +2,11 @@
 Web server that uses Node.js and Express to show all of the subfolders in the current directory
 
 ## Requirements
-Requirements: [Node.js](https://nodejs.org/) and [Express](https://expressjs.com/).
+Requirements: [Node.js](https://nodejs.org/).
 
-To install Express:
+To install Express web server and all dependencies:
 ```
-$ npm install express --save
+$ npm install
 ```
 ## Execution
 Execute in Windows with
