@@ -2,7 +2,7 @@
 // To install Express:
 //   $ npm install express --save
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const HTDOCS_FOLDER = '.';
 
 var express = require('express');
