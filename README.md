@@ -4,7 +4,7 @@ Web server that uses Node.js and Express to show all of the subfolders in the cu
 ## Requirements
 Requirements: [Node.js](https://nodejs.org/).
 
-To install Express web server and all dependencies:
+To install Express web server and all dependencies, if necessary:
 ```
 $ npm install
 ```
