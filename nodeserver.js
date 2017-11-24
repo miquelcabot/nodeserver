@@ -44,7 +44,7 @@ console.log('http://localhost:'+PORT+'/');
 app.listen(PORT, function () {
   console.log('Server running on '+PORT+'...');
   console.log('Press CTRL+C to stop');
+  // We start chrome browser
+  cp.exec('start chrome http://localhost:'+PORT);
 });
 
-// We start chrome browser
-cp.exec('start chrome http://localhost:'+PORT);
